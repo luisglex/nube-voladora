@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none;
   border-style: none;
+  scroll-behavior: smooth;
 }
 
 /* Tags styles */
@@ -250,6 +251,7 @@ li{
   color: #60408C;
   display: block;
   text-align: center;
+  padding: 18px 36px;
 }
 
 /* Banner */
@@ -258,7 +260,7 @@ li{
   margin-top: 40px;
   text-align: center;
   background-color: #FCEFDF;
-  padding: 40px 0px;
+  padding: 40px 0px 24px;
 }
 
 .banner__copy{
@@ -267,11 +269,9 @@ li{
 }
 
 .button__outline{
-  display: inline-block;
-  padding: 20px 36px;
   background: none;
   border-radius: 4px;
-  margin: 16px 0px;
+  margin: 16px 0px 32px;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
@@ -280,6 +280,15 @@ li{
   border: 2px solid #60408C;
   color: #60408C;
 }
+
+.banner__rights{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+
 
 /* Breakpoints */
 
