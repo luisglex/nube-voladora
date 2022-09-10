@@ -53,7 +53,7 @@ h4{
 }
 
 h5{
-  color: #696871;
+  color: #494949;
   font-family: Mulish;
   font-style: normal;
   font-weight: 800;
@@ -88,6 +88,12 @@ a{
   font-size: 21px;
   line-height: 32px;
   color: #3b3b3b;
+  transition: 0.5s;
+}
+
+a:hover{
+  background: #19191b;
+  color: #FFFFFF;
 }
 
 li{
@@ -107,7 +113,7 @@ li{
     /* overflow: hidden; */
     align-items: center;
     margin-top: 56px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 /* Hero */
