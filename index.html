@@ -28,13 +28,18 @@
           a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-
 </head>
 <body>
   <!-- Cookie banner WIP -->
+  <div class="cookiebanner" id="cookiebanner">
+    <img src="images/cookie.svg" alt="Galleta" class="cookiebanner__image">
+    <p class="cookiebanner__description">Utilizamos cookies propias y de terceros para mejorar tu experiencia en nuestro sitio web.</p>
+    <button class="cookiebanner__button" id="btn-acceptcookie">Aceptar cookies</button>
+  </div>
+  <div class="cookiebanner__background" id="cookiebanner-background"></div>
+  <script src="cookies.js"></script>
 
   <!-- hero -->
-
   <div class="grid">      
     <header class="hero__container--copy">
       <img style="margin-bottom: 16px ;" src="images/logo-nube.svg" alt="Logo Nube Voladora">
@@ -50,7 +55,6 @@
   </div>
 
 <!-- Value proposition -->
-
   <div class="grid">
     <h2 class="article__title">Te ayudaremos a:</h2>
     <div class="article__item--1">
@@ -72,12 +76,10 @@
   </div>
 
   <!-- Pricing -->
-
   <div id="pricing" class="pricing__grid">
     <h2 class="pricing__title">Nos adaptamos a tus necesidades</h2>
 
-      <!-- Nube Dorada-->
-
+    <!-- Nube Dorada-->
     <div class="pricing__item pricing__item--1">
       <div>
         <h3>Nube Dorada</h3>
@@ -97,7 +99,7 @@
       <a class="pricing__item--button" href="https://wa.me/+5219983217645?text=Me%20interesa%20el%20plan%20Nube%20Dorada%20de%20Nube%20Voladora" target="_blank">Quiero este plan</a>
     </div>
 
-  <!-- Nube Amarilla-->
+    <!-- Nube Amarilla-->
 
     <div class="pricing__item pricing__item--2">
       <div>
@@ -118,8 +120,7 @@
       <a class="pricing__item--button" href="https://wa.me/+5219983217645?text=Me%20interesa%20el%20plan%20Nube%20Amarilla%20de%20Nube%20Voladora" target="_blank">Quiero este plan</a>
     </div>
     
-      <!-- Nube Blanca-->
-    
+    <!-- Nube Blanca-->
     <div class="pricing__item pricing__item--3">
       <div>
         <h3>Nube Blanca</h3>
@@ -135,7 +136,6 @@
       <a class="pricing__item--button-outline" href="https://wa.me/+5219983217645?text=Me%20interesa%20el%20plan%20Nube%20Blanca%20de%20Nube%20Voladora" target="_blank">Agendar llamada</a>
     </div>
   </div>
-
     <!-- Get in touch -->
 
   <div class="banner">
